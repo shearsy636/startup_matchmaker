@@ -17,12 +17,31 @@ header {
   width: 100%;
   border-bottom: solid #fdf731 5px;
 }
+.login {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+  font-weight:700;
+  color: white;
+}
+.about {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
 footer {
   background-color: black;
   color: white;
   height: 60px;
   vertical-align: bottom;
-
+}
+.copyright{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
 }
 h1 {
   display: inline-block;
@@ -53,6 +72,7 @@ button {
   font-weight:700;
   color: black;
   width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 nav {
   display: inline-block;
@@ -67,7 +87,6 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  padding-left: 10px;
   padding-right: 10px;
 }
 .callout p {
@@ -83,19 +102,7 @@ p {
 .black-link {
   color: black;
 }
-.login {
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px
-  font-weight:700;
-  color: white;
-}
-.about {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-}
+
 .taste {
   text-decoration: line-through;
   color: #918a8a;
@@ -133,13 +140,16 @@ p {
 }*/
 .third {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .item {
-  height: 300px;
+  height: 250px;
   display: inline-block;
   text-align: left;
   margin-left: 15px;
+  padding-right: 15px;
 }
 .callout {
   height: 250px;
@@ -165,18 +175,17 @@ p {
   font-size: 20px
   font-weight:700;
 }
-.copyright{
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  margin:0;
-}
+
 .clearfix::after {
   content: "";
   display: block;
   visibility: hidden;
   height: 0px;
   clear: both;
+}
+.profile {
+  border-right: #ddd solid 1px;
+}
+.developer {
+  border-right: #ddd solid 1px;
 }
