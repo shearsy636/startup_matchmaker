@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+body{
+  background-color: #fff;
+}
+header {
+  display: inline-block;
+  height: 75px;
+  background-color: black;
+  width: 100%;
+  border-bottom: solid #fdf731 5px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 60px;
+  vertical-align: bottom;
+
+}
+h1 {
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fdf731;
+  padding-left: 20px;
+}
+h2 {
+  margin: 0 0 10px 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+button {
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+  font-weight:700;
+  color: black;
+  width: 250px;
+}
+nav {
+  display: inline-block;
+  float: right;
+  padding-top: 30px;
+  padding-right: 15px;
+  color: white;
+}
+p {
+  margin: 0 0 20px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.callout p {
+  margin: 0 0 20px 25px; 
+}
+.button-yellow{
+  background-color: #fdf731;
+  color: black;
+  width: 200px;
+  opacity: 1.0;
+  margin:0 0 0 85px;
+}
+.black-link {
+  color: black;
+}
+.login {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+  font-weight:700;
+  color: white;
+}
+.about {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.taste {
+  text-decoration: line-through;
+  color: #918a8a;
+  margin:0 6px 0 6px;
+}
+.are {
+  text-decoration: underline;
+  text-decoration-color: #fdf731;
+  margin-right: 6px;
+}
+.brains {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  padding-top: 22px;
+}
+.main{
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+/*
+}
+.item {
+  width: 33%;
+  float: left;
+  height: 100px;
+  padding-left: 20px;  
+  padding-bottom: 30px;
+}*/
+.third {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  height: 300px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 15px;
+}
+.callout {
+  height: 250px;
+  width: 400px;
+  float: right;
+  background-color: #fff;
+  border: solid 2px #ddd;
+  vertical-align: center;
+  opacity: .85;
+  margin: 30px 20px 20px 0;
+  padding:20px 25px 20px 10px;
+}
+.tagline {
+  background-color: #c6c6c6;
+  height: 65px;
+  margin: auto;
+}
+.grey {
+  background-color: #c6c6c6;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px
+  font-weight:700;
+}
+.copyright{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin:0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0px;
+  clear: both;
+}
