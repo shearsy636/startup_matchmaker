@@ -5,9 +5,15 @@
 }
 a {
   text-decoration: none;
+    padding-right: 10px;
 }
 body{
   background-color: #c6c6c6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 header {
   display: inline-block;
@@ -41,10 +47,11 @@ footer {
   color: white;
   height: 60px;
   vertical-align: bottom;
+  width: 100%;
 }
 section {
   width: 250px;
-  height: 350px;
+  height: 325px;
   background-color: white;
   margin-top: 20px;
   margin-left: 10px;
@@ -68,14 +75,14 @@ font-family: 'Source Sans Pro', sans-serif;
   color: #918e8e;
 }
 .img_holder {
-  width: 200px;
+  width: 220px;
   height: 200px;
   padding-top: 15px;
   background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:0 0 0 0;
+  margin:0 0 0 5px;
 }
 .some {
   margin-top: 10px;
@@ -150,7 +157,11 @@ button {
 }
 .people {
   display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.dev {
+  background-color: #666;
+  padding-top: 10px;
 }
